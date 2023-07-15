@@ -142,11 +142,6 @@ body {
     margin: 0 auto;
 }
 
-.button-container {
-    display: flex;
-    justify-content: center;
-}
-
 .hero-btn {
     color: #FFF;
     font-family: "Roboto", sans-serif;
