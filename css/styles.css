@@ -70,6 +70,7 @@ body {
 .header-navigation {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .header-container {
@@ -98,6 +99,7 @@ body {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    padding: 24px 0;
 }
 
 .header-menu-link:hover, .header-menu-link:focus {
@@ -124,12 +126,9 @@ body {
     color: #404BBF;
 }
 
-.hero-container {
-    padding: 188px 316px 292px 316px;
-}
-
 .hero {
     background-color: #2E2F42;
+    padding: 188px 0;
 }
 
 .hero-title {
@@ -161,6 +160,9 @@ body {
     border-radius: 4px;
     border: none;
     margin-top: 48px;
+    display:block;
+    min-width: 169px;
+    height: 56px;
 }
 
 .hero-btn:hover,
@@ -168,9 +170,12 @@ body {
     background-color: #404BBF;
 }
 
+.advantages {
+    padding: 120px 0;
+}
+
 .advantages-item {
     display: flex;
-    padding-top: 120px;
     gap: 24px;
 }
 
@@ -233,7 +238,7 @@ body {
 
 .team {
     background-color: #F4F4FD;
-    padding-bottom: 120px;
+    padding: 120px 0;
 }
 
 .team-guide {
@@ -244,13 +249,15 @@ body {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    padding-top:120px;
-    padding-bottom: 72px;
 }
 
 .team-list {
     display:flex;
     gap: 24px;
+}
+
+.team-name-position {
+    padding: 32px 16px;
 }
 
 .team-list-member {
@@ -269,7 +276,7 @@ body {
     letter-spacing: 0.02em;
     text-align: center;
     margin-bottom: 8px;
-    padding-top: 32px;
+    margin-bottom: 72px;
 }
 
 .team-list-position {
@@ -282,7 +289,12 @@ body {
 
 .footer {
     padding-top: 101.5px;
-    padding-bottom: 100px;
+    padding: 100px 0;
+}
+
+.footer-logo {
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .footer-slogan {
