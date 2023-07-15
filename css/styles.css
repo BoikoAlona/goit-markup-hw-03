@@ -306,7 +306,7 @@ body {
 .filter {
     display: flex;
     gap: 24px;
-    padding-bottom: 72px;
+    margin-bottom: 72px;
     justify-content: center;
 }
 
@@ -328,6 +328,7 @@ body {
 .filter-btn:hover, .filter-btn:focus {
     background-color: #404BBF;
     color: #FFFFFF;
+    border: 1px solid transparent;
 }
 
 .project-item-list {
